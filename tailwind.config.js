@@ -16,7 +16,11 @@ module.exports = {
     },
     extend: {
       backgroundImage:{
-        'cover-ds': "url('/public/img/cover-desktop.jpg')"
+        'cover-ds': "url('/public/img/cover-desktop.jpg')",
+        'cls-1': "url('/public/img/clase-1.jpg')",
+        'cls-2': "url('/public/img/clase-2.jpg')",
+        'cls-3': "url('/public/img/clase-3.jpg')",
+
       },
       spacing: {
         '128': '32rem'
