@@ -570,6 +570,10 @@ video {
   z-index: 20;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -580,6 +584,10 @@ video {
 
 .h-128 {
   height: 32rem;
+}
+
+.h-72 {
+  height: 18rem;
 }
 
 .h-80 {
@@ -602,6 +610,10 @@ video {
   width: 100%;
 }
 
+.flex-none {
+  flex: none;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -622,16 +634,12 @@ video {
   gap: 0.25rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-8 {
   gap: 2rem;
-}
-
-.overflow-auto {
-  overflow: auto;
 }
 
 .overflow-x-auto {
@@ -640,6 +648,10 @@ video {
 
 .overflow-y-hidden {
   overflow-y: hidden;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .rounded-md {
@@ -686,6 +698,10 @@ video {
   background-image: url('/public/img/cover-desktop.jpg');
 }
 
+.bg-cls-4 {
+  background-image: url('/public/img/clase-4.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -710,9 +726,19 @@ video {
   padding: 2rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-6 {
@@ -800,8 +826,8 @@ video {
     flex-direction: row;
   }
 
-  .lg\:gap-20 {
-    gap: 5rem;
+  .lg\:justify-center {
+    justify-content: center;
   }
 
   .lg\:px-20 {
@@ -815,10 +841,6 @@ video {
 
   .lg\:pt-10 {
     padding-top: 2.5rem;
-  }
-
-  .lg\:pt-16 {
-    padding-top: 4rem;
   }
 
   .lg\:text-2xl {
