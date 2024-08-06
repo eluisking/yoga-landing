@@ -6,7 +6,7 @@ module.exports = {
       'orange-primary': '#ff6e5c',
       'orange-secundary': '',
       'bg-primary': '#f1f5f9',
-      'bg-secundary': '#94a3b8',
+      'bg-secundary': '#e2e8f0',
       'bg-gray': '#1e293b',
       'black': '#020617',
       'white': '#f8fafc',

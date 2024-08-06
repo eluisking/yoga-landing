@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="../public/css/tailwind.css">
     <title>Yogify</title>
 </head>
-<body class="bg-bg-primary">
-    <nav class="">
+<body class="bg-bg-primary scroll-smooth">
+    <nav>
         <div class="p-8 flex justify-between bg-white hidden lg:flex">
             <div>
                 <p class="font-Poppins-r font-semibold text-orange-primary text-2xl">Yogify.</p>
             </div>
             <div class="flex gap-8">
                 <a class="font-semibold font-Poppins-r hover:text-orange-primary" href="#home">Inicio</a>
-                <a class="font-semibold font-Poppins-r hover:text-orange-primary" href="#">Clases</a>
+                <a class="font-semibold font-Poppins-r hover:text-orange-primary" href="#acerca-de">Clases</a>
                 <a class="font-semibold font-Poppins-r hover:text-orange-primary" href="#">Acerca de</a>
                 <a class="font-semibold font-Poppins-r hover:text-orange-primary" href="#">Planes</a>
                 <a class="font-semibold font-Poppins-r hover:text-orange-primary" href="#">Resenas</a>
@@ -72,7 +72,7 @@
         <h2 class="text-center py-10 font-Poppins-r font-semibold text-lg lg:text-2xl">Nuestras Clases</h2>
 
         <div class="w-auto h-72 px-10 items-center mt-6 overflow-x-auto overflow-x-contain flex gap-20 overflow-y-hidden lg:justify-center">
-            <div class="w-60 h-80 px-10 bg-cls-1 bg-cover bg-center flex items-center justify-center flex-none">
+            <div class="w-60 h-80 px-10 bg-cls-1 bg-cover bg-center flex items-center justify-center flex-none ">
                 <p><i class="fa-solid fa-play text-5xl text-orange-primary hover:text-white"></i></p>
             </div>
 
@@ -89,6 +89,44 @@
             </div>
         </div>
 
+    </section>
+
+    <section id="acerca-de">
+        <div class="py-16 flex justify-center flex-col items-center">
+            <h2 class="font-Poppins-r font-semibold text-lg lg:text-2xl">Acerca de Nosotros</h2>
+            <div class="p-10 flex flex-col lg:flex-row lg:gap-10 items-center">
+                <div class="m-5 w-2/3 lg:flex lg:justify-center">
+                    <img class="rounded-lg lg:w-60 lg:h-80 object-cover" src="../public/img/about-us.jpg" alt="About Us">
+                </div>
+                <div class="m-5">
+                    <p class="font-Poppins-r pb-4 font-semibold lg:text-lg text-center lg:text-left">Bienvenido a Yogify.</p>
+                    <p class="font-Poppins-r pb-5 text-center lg:text-lg lg:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magnam temporibus eos! Ducimus vel consequatur perferendis rerum! Ratione eos sequi repellat aut aperiam? Aperiam porro magnam, sunt ut dolor ea?</p>
+                    <a class="font-Poppins-r bg-orange-primary px-6 p-2 rounded-xl hover:bg-orange-secundary hover:text-white" href="#">Saber Mas.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-bg-secundary">
+        <div class="pb-16 pt-5 flex justify-center flex-col items-center">
+            <h2 class="font-Poppins-r font-semibold text-lg lg:text-2xl">Nuestros Planes</h2>
+            <div class="py-16">
+                <div class="w-64 h-96 bg-white">
+                    <p>Standard</p>
+                    <div>
+                        <p>$30</p>
+                        <p>/ Por mES.</p>
+                    </div>
+                    <P>Este paquete contiene ejercicios basicos con los cuales puedes empezar en el mundo del yoga.</P>
+                    <li>
+                        <p>Prueba Gratis por 7 Dias.</p>
+                        <p>Acceso a Podcast.</p>
+                        <p>Acceso a Chat en Yoga.</p>
+                        <p>Plan Personlalizado.</p>
+                    </li>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 <script src="https://kit.fontawesome.com/b74d161dd8.js" crossorigin="anonymous"></script>
